@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE155431193A48DC0016146C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE155430193A48DC0016146C /* Foundation.framework */; };
+		EE155433193A48DC0016146C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE155432193A48DC0016146C /* CoreGraphics.framework */; };
+		EE155435193A48DC0016146C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE155434193A48DC0016146C /* UIKit.framework */; };
+		EE155437193A48DC0016146C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE155436193A48DC0016146C /* CoreData.framework */; };
+		EE15543D193A48DC0016146C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE15543B193A48DC0016146C /* InfoPlist.strings */; };
+		EE15543F193A48DC0016146C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE15543E193A48DC0016146C /* main.m */; };
+		EE155443193A48DC0016146C /* DLSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE155442193A48DC0016146C /* DLSAppDelegate.m */; };
+		EE155446193A48DC0016146C /* DoItDark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE155444193A48DC0016146C /* DoItDark.xcdatamodeld */; };
+		EE155448193A48DC0016146C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE155447193A48DC0016146C /* Images.xcassets */; };
+		EE15544F193A48DD0016146C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE15544E193A48DD0016146C /* XCTest.framework */; };
+		EE155450193A48DD0016146C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE155430193A48DC0016146C /* Foundation.framework */; };
+		EE155451193A48DD0016146C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE155434193A48DC0016146C /* UIKit.framework */; };
+		EE155452193A48DD0016146C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE155436193A48DC0016146C /* CoreData.framework */; };
+		EE15545A193A48DD0016146C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE155458193A48DD0016146C /* InfoPlist.strings */; };
+		EE15545C193A48DD0016146C /* DoItDarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE15545B193A48DD0016146C /* DoItDarkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE155453193A48DD0016146C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE155425193A48DC0016146C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE15542C193A48DC0016146C;
+			remoteInfo = DoItDark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE15542D193A48DC0016146C /* DoItDark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoItDark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE155430193A48DC0016146C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE155432193A48DC0016146C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE155434193A48DC0016146C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE155436193A48DC0016146C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EE15543A193A48DC0016146C /* DoItDark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoItDark-Info.plist"; sourceTree = "<group>"; };
+		EE15543C193A48DC0016146C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE15543E193A48DC0016146C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE155440193A48DC0016146C /* DoItDark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoItDark-Prefix.pch"; sourceTree = "<group>"; };
+		EE155441193A48DC0016146C /* DLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLSAppDelegate.h; sourceTree = "<group>"; };
+		EE155442193A48DC0016146C /* DLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLSAppDelegate.m; sourceTree = "<group>"; };
+		EE155445193A48DC0016146C /* DoItDark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoItDark.xcdatamodel; sourceTree = "<group>"; };
+		EE155447193A48DC0016146C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE15544D193A48DD0016146C /* DoItDarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoItDarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE15544E193A48DD0016146C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE155457193A48DD0016146C /* DoItDarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoItDarkTests-Info.plist"; sourceTree = "<group>"; };
+		EE155459193A48DD0016146C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE15545B193A48DD0016146C /* DoItDarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoItDarkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE15542A193A48DC0016146C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE155433193A48DC0016146C /* CoreGraphics.framework in Frameworks */,
+				EE155437193A48DC0016146C /* CoreData.framework in Frameworks */,
+				EE155435193A48DC0016146C /* UIKit.framework in Frameworks */,
+				EE155431193A48DC0016146C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE15544A193A48DD0016146C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE15544F193A48DD0016146C /* XCTest.framework in Frameworks */,
+				EE155452193A48DD0016146C /* CoreData.framework in Frameworks */,
+				EE155451193A48DD0016146C /* UIKit.framework in Frameworks */,
+				EE155450193A48DD0016146C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE155424193A48DC0016146C = {
+			isa = PBXGroup;
+			children = (
+				EE155438193A48DC0016146C /* DoItDark */,
+				EE155455193A48DD0016146C /* DoItDarkTests */,
+				EE15542F193A48DC0016146C /* Frameworks */,
+				EE15542E193A48DC0016146C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE15542E193A48DC0016146C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE15542D193A48DC0016146C /* DoItDark.app */,
+				EE15544D193A48DD0016146C /* DoItDarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE15542F193A48DC0016146C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE155430193A48DC0016146C /* Foundation.framework */,
+				EE155432193A48DC0016146C /* CoreGraphics.framework */,
+				EE155434193A48DC0016146C /* UIKit.framework */,
+				EE155436193A48DC0016146C /* CoreData.framework */,
+				EE15544E193A48DD0016146C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE155438193A48DC0016146C /* DoItDark */ = {
+			isa = PBXGroup;
+			children = (
+				EE155441193A48DC0016146C /* DLSAppDelegate.h */,
+				EE155442193A48DC0016146C /* DLSAppDelegate.m */,
+				EE155447193A48DC0016146C /* Images.xcassets */,
+				EE155444193A48DC0016146C /* DoItDark.xcdatamodeld */,
+				EE155439193A48DC0016146C /* Supporting Files */,
+			);
+			path = DoItDark;
+			sourceTree = "<group>";
+		};
+		EE155439193A48DC0016146C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE15543A193A48DC0016146C /* DoItDark-Info.plist */,
+				EE15543B193A48DC0016146C /* InfoPlist.strings */,
+				EE15543E193A48DC0016146C /* main.m */,
+				EE155440193A48DC0016146C /* DoItDark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE155455193A48DD0016146C /* DoItDarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE15545B193A48DD0016146C /* DoItDarkTests.m */,
+				EE155456193A48DD0016146C /* Supporting Files */,
+			);
+			path = DoItDarkTests;
+			sourceTree = "<group>";
+		};
+		EE155456193A48DD0016146C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE155457193A48DD0016146C /* DoItDarkTests-Info.plist */,
+				EE155458193A48DD0016146C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE15542C193A48DC0016146C /* DoItDark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE15545F193A48DD0016146C /* Build configuration list for PBXNativeTarget "DoItDark" */;
+			buildPhases = (
+				EE155429193A48DC0016146C /* Sources */,
+				EE15542A193A48DC0016146C /* Frameworks */,
+				EE15542B193A48DC0016146C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoItDark;
+			productName = DoItDark;
+			productReference = EE15542D193A48DC0016146C /* DoItDark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE15544C193A48DD0016146C /* DoItDarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE155462193A48DD0016146C /* Build configuration list for PBXNativeTarget "DoItDarkTests" */;
+			buildPhases = (
+				EE155449193A48DD0016146C /* Sources */,
+				EE15544A193A48DD0016146C /* Frameworks */,
+				EE15544B193A48DD0016146C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE155454193A48DD0016146C /* PBXTargetDependency */,
+			);
+			name = DoItDarkTests;
+			productName = DoItDarkTests;
+			productReference = EE15544D193A48DD0016146C /* DoItDarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE155425193A48DC0016146C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DLS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jason Schneider";
+				TargetAttributes = {
+					EE15544C193A48DD0016146C = {
+						TestTargetID = EE15542C193A48DC0016146C;
+					};
+				};
+			};
+			buildConfigurationList = EE155428193A48DC0016146C /* Build configuration list for PBXProject "DoItDark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE155424193A48DC0016146C;
+			productRefGroup = EE15542E193A48DC0016146C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE15542C193A48DC0016146C /* DoItDark */,
+				EE15544C193A48DD0016146C /* DoItDarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE15542B193A48DC0016146C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE15543D193A48DC0016146C /* InfoPlist.strings in Resources */,
+				EE155448193A48DC0016146C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE15544B193A48DD0016146C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE15545A193A48DD0016146C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE155429193A48DC0016146C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE155443193A48DC0016146C /* DLSAppDelegate.m in Sources */,
+				EE15543F193A48DC0016146C /* main.m in Sources */,
+				EE155446193A48DC0016146C /* DoItDark.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE155449193A48DD0016146C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE15545C193A48DD0016146C /* DoItDarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE155454193A48DD0016146C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE15542C193A48DC0016146C /* DoItDark */;
+			targetProxy = EE155453193A48DD0016146C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE15543B193A48DC0016146C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE15543C193A48DC0016146C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE155458193A48DD0016146C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE155459193A48DD0016146C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE15545D193A48DD0016146C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE15545E193A48DD0016146C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE155460193A48DD0016146C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoItDark/DoItDark-Prefix.pch";
+				INFOPLIST_FILE = "DoItDark/DoItDark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE155461193A48DD0016146C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoItDark/DoItDark-Prefix.pch";
+				INFOPLIST_FILE = "DoItDark/DoItDark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE155463193A48DD0016146C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoItDark.app/DoItDark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoItDark/DoItDark-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoItDarkTests/DoItDarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE155464193A48DD0016146C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoItDark.app/DoItDark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoItDark/DoItDark-Prefix.pch";
+				INFOPLIST_FILE = "DoItDarkTests/DoItDarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE155428193A48DC0016146C /* Build configuration list for PBXProject "DoItDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE15545D193A48DD0016146C /* Debug */,
+				EE15545E193A48DD0016146C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE15545F193A48DD0016146C /* Build configuration list for PBXNativeTarget "DoItDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE155460193A48DD0016146C /* Debug */,
+				EE155461193A48DD0016146C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE155462193A48DD0016146C /* Build configuration list for PBXNativeTarget "DoItDarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE155463193A48DD0016146C /* Debug */,
+				EE155464193A48DD0016146C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE155444193A48DC0016146C /* DoItDark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE155445193A48DC0016146C /* DoItDark.xcdatamodel */,
+			);
+			currentVersion = EE155445193A48DC0016146C /* DoItDark.xcdatamodel */;
+			path = DoItDark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE155425193A48DC0016146C /* Project object */;
+}
